@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: dd579436369122e44bba9014f7b6e93a
+guid: 8610397fd3b944143b71389528bd5b89
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2103130578016566879
-    second: tekotu 1_0
+      213: -518322782035517342
+    second: tekotuMapTip_0
   - first:
-      213: 4356440321893588003
-    second: tekotu 1_1
+      213: -6626537577391794136
+    second: tekotuMapTip_1
   - first:
-      213: 9038882544123820340
-    second: tekotu 1_2
-  - first:
-      213: -6466546854414461807
-    second: tekotu 1_3
-  - first:
-      213: 2466923407217850003
-    second: tekotu 1_4
+      213: -6468120339685241555
+    second: tekotuMapTip_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tekotu 1_0
+      name: tekotuMapTip_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,14 +126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a18f05d1ed20d2e0800000000000000
-      internalID: -2103130578016566879
+      spriteID: 260e7c90d2c8ec8f0800000000000000
+      internalID: -518322782035517342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tekotu 1_1
+      name: tekotuMapTip_1
       rect:
         serializedVersion: 2
         x: 20
@@ -153,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32cd7af246f257c30800000000000000
-      internalID: 4356440321893588003
+      spriteID: 828d8c8ae2fc904a0800000000000000
+      internalID: -6626537577391794136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tekotu 1_2
+      name: tekotuMapTip_2
       rect:
         serializedVersion: 2
         x: 40
@@ -174,50 +168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439baf8a8cf807d70800000000000000
-      internalID: 9038882544123820340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tekotu 1_3
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 0
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 194d43ba5e53246a0800000000000000
-      internalID: -6466546854414461807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tekotu 1_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 396f05fb4c54c3220800000000000000
-      internalID: 2466923407217850003
+      spriteID: d2d059412de9c36a0800000000000000
+      internalID: -6468120339685241555
       vertices: []
       indices: 
       edges: []
