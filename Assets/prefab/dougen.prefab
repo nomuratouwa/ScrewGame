@@ -84,7 +84,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4460617954264170572, guid: bf1688db9b7de0f459696c94679d595d, type: 3}
       propertyPath: ElekTime
-      value: 100
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4460617954264170572, guid: bf1688db9b7de0f459696c94679d595d, type: 3}
       propertyPath: Minamoto
