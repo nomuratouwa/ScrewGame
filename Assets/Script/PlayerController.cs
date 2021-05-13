@@ -86,6 +86,7 @@ public class PlayerController : MonoBehaviour
     void DeathKansu()
     {
         transform.Translate(0f, 0.1f, 0f);
+        RB.velocity = new Vector2(0, RB.velocity.y);
         RB.gravityScale = 0;
     }
     //着地判定
@@ -108,6 +109,13 @@ public class PlayerController : MonoBehaviour
         {
             if (Ground)
                 Ground = false;
+        }
+    }
+    void OnTriggerStay2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Electrical")
+        {
+            Die();
         }
     }
 }

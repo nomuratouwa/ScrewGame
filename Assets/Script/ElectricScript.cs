@@ -35,10 +35,12 @@ public class ElectricScript : MonoBehaviour
 
         // ローカル座標を基準に、座標を取得
         Vector3 localPos = myTransform.localPosition;
-        localPos.x = 0.0f;    // ローカル座標を基準にした、x座標が入っている変数
-        localPos.y = 0.0f;    // ローカル座標を基準にした、y座標が入っている変数
-        localPos.z = 0.0f;    // ローカル座標を基準にした、z座標が入っている変数
+        localPos = new Vector3(0, 0, 0);        //原点に固定
         myTransform.localPosition = localPos; // ローカル座標での座標を設定
+        Vector3 localRot = myTransform.localEulerAngles;
+        localRot = new Vector3(0, 0, 0);        //原点に固定
+        myTransform.localEulerAngles = localRot; //ローカル座標での回転を設定
+
     }
 
     //他オブジェクトが触れている間
