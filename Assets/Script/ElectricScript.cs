@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class ElectricScript : MonoBehaviour
 {
-    public int ElekTime = 100;
-    public  bool Minamoto = false;
-    public Sprite Sunder;
+    public int ElekTime = 100;      //電気の強さ　　値が大きいと伝導しやすくなる
+    public  bool Minamoto = false;      //同源かどうか
+    [SerializeField] private bool EffectFrag = false;
+    [SerializeField] private bool Debug = false;
+    public Sprite Sunder;               //デバック用電気のスプライト
     private ElectricScript Script;
     // Start is called before the first frame update
     void Start()
     {
 
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
     }
 
     // Update is called once per frame
@@ -19,17 +22,18 @@ public class ElectricScript : MonoBehaviour
     {
         if (ElekTime>0)
         {
-            this.tag = "Electrical";
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = Sunder;
+            this.tag = "Electrical";            //タグを入れる
+            if(Debug)
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = Sunder;
             if (!Minamoto)
                 ElekTime--;
         }
         else
         {
-            this.tag = "Untagged";
-            this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
+            this.tag = "Untagged";              //タグを外す
         }
 
+        //↓何故か親子関係でもワールド座標に固定化されてしまうのでローカル座標を固定する
         // transformを取得
         Transform myTransform = this.transform;
 
@@ -48,13 +52,19 @@ public class ElectricScript : MonoBehaviour
     {
         if (col.gameObject.tag == "Electrical")
         {
-            Debug.Log("Test!!!!!!!!");
+            //Debug.Log("Test!!!!!!!!");
             Script = col.gameObject.GetComponent<ElectricScript>();
-            if (Script.ElekTime > 0 && !Minamoto)
+            if (Script.ElekTime > 0 && !Minamoto && !EffectFrag)
             {
-                ElekTime = Script.ElekTime;
+                ElekTime = Script.ElekTime;         //となりの電気の強さをコピーする
             }
-
+            if (EffectFrag)
+            {
+                transform.Find("LIGHTNING").gameObject.SetActive(true);
+            }
+        }else if (EffectFrag)
+        {
+            transform.Find("LIGHTNING").gameObject.SetActive(false);
         }
     }
 }
