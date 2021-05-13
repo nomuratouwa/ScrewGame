@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ElectricScript : MonoBehaviour
 {
-    public int ElekTime = 100;
-    public  bool Minamoto = false;
-    public Sprite Sunder;
+    public int ElekTime = 100;      //電気の強さ　　値が大きいと伝導しやすくなる
+    public  bool Minamoto = false;      //同源かどうか
+    public Sprite Sunder;               //電気のスプライト
     private ElectricScript Script;
     // Start is called before the first frame update
     void Start()
@@ -19,17 +19,18 @@ public class ElectricScript : MonoBehaviour
     {
         if (ElekTime>0)
         {
-            this.tag = "Electrical";
+            this.tag = "Electrical";            //タグを入れる
             this.gameObject.GetComponent<SpriteRenderer>().sprite = Sunder;
             if (!Minamoto)
                 ElekTime--;
         }
         else
         {
-            this.tag = "Untagged";
+            this.tag = "Untagged";              //タグを外す
             this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
         }
 
+        //↓何故か親子関係でもワールド座標に固定化されてしまうのでローカル座標を固定する
         // transformを取得
         Transform myTransform = this.transform;
 
@@ -48,11 +49,11 @@ public class ElectricScript : MonoBehaviour
     {
         if (col.gameObject.tag == "Electrical")
         {
-            Debug.Log("Test!!!!!!!!");
+            //Debug.Log("Test!!!!!!!!");
             Script = col.gameObject.GetComponent<ElectricScript>();
             if (Script.ElekTime > 0 && !Minamoto)
             {
-                ElekTime = Script.ElekTime;
+                ElekTime = Script.ElekTime;         //となりの電気の強さをコピーする
             }
 
         }
