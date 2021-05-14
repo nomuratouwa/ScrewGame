@@ -125,6 +125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
+  EffectFrag: 0
+  Debug: 0
   Sunder: {fileID: 21300000, guid: 761bd988764a31f42b34dd4c494b6515, type: 3}
 --- !u!50 &4460617954264170568
 Rigidbody2D:
