@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1179a9cecb5ada649a5ef9dbeb0097be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1000
+  Speed: 1050
   Jump: 600
   Pyon: 80
   PyonKankaku: 10
