@@ -18,7 +18,7 @@ public class NejiController : MonoBehaviour
         
     }
     
-    public void EnabledComponent(GameObject gameObject)    //ƒqƒ“ƒQƒWƒ‡ƒCƒ“ƒg–³Œø
+    public void HingeEnabledComponent(GameObject gameObject)    //ƒqƒ“ƒQƒWƒ‡ƒCƒ“ƒg–³Œø
     {
         var HingeJoint = gameObject.GetComponent<HingeJoint2D>();
         HingeJoint.enabled = false;
@@ -28,5 +28,10 @@ public class NejiController : MonoBehaviour
     {
         var HingeJoint = gameObject.GetComponent<HingeJoint2D>();
         HingeJoint.enabled = true;
+    }
+    public void FixedEnabledComponent(GameObject gameObject)    //ƒqƒ“ƒQƒWƒ‡ƒCƒ“ƒg–³Œø
+    {
+        var FixedJoint = gameObject.GetComponent<FixedJoint2D>();
+        FixedJoint.enabled = false;
     }
 }

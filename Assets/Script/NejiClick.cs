@@ -6,6 +6,7 @@ public class NejiClick : MonoBehaviour
 {
     GameObject OyaObject;
     bool Fit = true;
+    [SerializeField] private bool Naka = false;
 
     public Sprite SpriteNeji;
     public Sprite SpriteNejiana;
@@ -29,7 +30,9 @@ public class NejiClick : MonoBehaviour
         switch (Fit)
         {
             case true:          //ŠO‚·
-                OyaObject.GetComponent<NejiController>().EnabledComponent(this.gameObject);
+                OyaObject.GetComponent<NejiController>().HingeEnabledComponent(this.gameObject);
+                if(Naka)
+                    OyaObject.GetComponent<NejiController>().FixedEnabledComponent(this.gameObject);
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNejiana;
                 Fit = false;
                 break;
