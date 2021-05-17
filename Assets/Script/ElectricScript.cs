@@ -31,6 +31,8 @@ public class ElectricScript : MonoBehaviour
         else
         {
             this.tag = "Untagged";              //タグを外す
+            if(Debug)
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = null;  //デバック用
         }
 
         //↓何故か親子関係でもワールド座標に固定化されてしまうのでローカル座標を固定する
