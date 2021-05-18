@@ -6,11 +6,12 @@ public class NejiClick : MonoBehaviour
 {
     GameObject OyaObject;
     bool Fit = true;
-    [SerializeField] private bool Naka = false;
+    [SerializeField] bool Removefrag = false;
+    [SerializeField]  bool Naka = false;
 
     public Sprite SpriteNeji;
     public Sprite SpriteNejiana;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,25 +25,31 @@ public class NejiClick : MonoBehaviour
     }
 
     //クリックされると
-    public void Click() 
+    public void Click()
     {
-        
-        switch (Fit)
+
+        if (Fit && Removefrag)
         {
-            case true:          //外す
-                OyaObject.GetComponent<NejiController>().HingeEnabledComponent(this.gameObject);
-                if(Naka)
-                    OyaObject.GetComponent<NejiController>().FixedEnabledComponent(this.gameObject);
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNejiana;
-                Fit = false;
-                break;
-//            case false:         //付ける
-//                OyaObject.GetComponent<NejiController>().GyakuEnabledComponent(this.gameObject);
-//                this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNeji;
-//                Fit = true;
-//                break;
+            OyaObject.GetComponent<NejiController>().HingeEnabledComponent(this.gameObject);
+            if (Naka)
+                OyaObject.GetComponent<NejiController>().FixedEnabledComponent(this.gameObject);
+            this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNejiana;
+            Fit = false;
         }
     }
 
-
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.name == "NejiHazushi")
+        {
+            Removefrag = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.name == "NejiHazushi")
+        {
+            Removefrag = false;
+        }
+    }
 }
