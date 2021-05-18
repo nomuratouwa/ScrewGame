@@ -36,11 +36,11 @@ public class NejiClick : MonoBehaviour
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNejiana;
                 Fit = false;
                 break;
-            case false:         //•t‚¯‚é
-                OyaObject.GetComponent<NejiController>().GyakuEnabledComponent(this.gameObject);
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNeji;
-                Fit = true;
-                break;
+//            case false:         //•t‚¯‚é
+//                OyaObject.GetComponent<NejiController>().GyakuEnabledComponent(this.gameObject);
+//                this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNeji;
+//                Fit = true;
+//                break;
         }
     }
 
