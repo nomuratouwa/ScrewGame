@@ -18,13 +18,11 @@ public class magnetController : MonoBehaviour
         if (Ziryoku)
         {
             PointEffector.enabled = false;
-            Ziryoku = false;
             transform.Find("FX_Buff_final").gameObject.SetActive(false);
         }
         else
         {
             PointEffector.enabled = true;
-            Ziryoku = true;
             transform.Find("FX_Buff_final").gameObject.SetActive(true);
         }
     }
