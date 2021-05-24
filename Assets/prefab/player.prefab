@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5144870723837653599}
   - component: {fileID: 5144870723837653598}
   - component: {fileID: 5144870723837653587}
+  - component: {fileID: 112691006}
   m_Layer: 0
   m_Name: driver
   m_TagString: Player
@@ -95,7 +96,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 5144870723837653584}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: e3c07836feabea442845184f22cbe713, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -176,6 +177,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9248314, y: 0.3068509}
   m_EdgeRadius: 0
+--- !u!95 &112691006
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5144870723837653584}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d78cfe8ede71ad46bf118e6d62a1b54, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5144870725088669814
 GameObject:
   m_ObjectHideFlags: 0

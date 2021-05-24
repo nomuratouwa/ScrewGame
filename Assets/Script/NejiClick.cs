@@ -5,6 +5,7 @@ using UnityEngine;
 public class NejiClick : MonoBehaviour
 {
     GameObject OyaObject;
+    GameObject PlayerObject;
     bool Fit = true;
     [SerializeField] bool Removefrag = false;
     [SerializeField]  bool Naka = false;
@@ -16,6 +17,7 @@ public class NejiClick : MonoBehaviour
     void Start()
     {
         OyaObject = transform.parent.gameObject; //親オブジェクト取得
+        PlayerObject = GameObject.Find("driver");
     }
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class NejiClick : MonoBehaviour
 
         if (Fit && Removefrag)
         {
+            PlayerObject.GetComponent<PlayerController>().SpinAnim();
             OyaObject.GetComponent<NejiController>().HingeEnabledComponent(this.gameObject);
             if (Naka)
                 OyaObject.GetComponent<NejiController>().FixedEnabledComponent(this.gameObject);
