@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public int PyonKankaku; //ぴょんする間隔
 
     private Rigidbody2D RB;
+    private Animator anim = null;
     private float Cnt1;     //ぴょん間隔の計算
     private float PyonRimit = 1;//↑と同じ
     private bool Death = false;
@@ -20,6 +21,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         RB = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -34,6 +36,7 @@ public class PlayerController : MonoBehaviour
             case false:
                 if (Cnt1 < PyonRimit && HorizontalKey != 0)
                 {
+                    anim.SetBool("walk", true);
                     Move(HorizontalKey);
                 }
                 //何も押さないとｘ座標だけ止まる
@@ -41,6 +44,7 @@ public class PlayerController : MonoBehaviour
                 {
                     RB.velocity = new Vector2(0, RB.velocity.y);
                     if (Cnt1 >= PyonRimit) Cnt1--;
+                    anim.SetBool("walk", false);
                 }
                 if (Ground && VerticalKey > 0)//ジャンぷ
                 {
@@ -78,9 +82,15 @@ public class PlayerController : MonoBehaviour
         transform.localEulerAngles = Muki;
     }
 
+    public void SpinAnim()
+    {
+        anim.SetTrigger("Spin");
+    }
+
     void Die()
     {
         this.gameObject.GetComponent<SpriteRenderer>().sprite = DeathDriver;
+        anim.SetBool("Die", true);
         Death = true;
     }
     void DeathKansu()
@@ -108,7 +118,10 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.tag == "Ground")
         {
             if (Ground)
+            {
+                anim.SetBool("walk", true);
                 Ground = false;
+            }
         }
     }
     void OnTriggerStay2D(Collider2D col)
