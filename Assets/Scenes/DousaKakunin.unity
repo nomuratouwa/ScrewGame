@@ -1898,6 +1898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: magnet
       objectReference: {fileID: 0}
+    - target: {fileID: 4765287964370132643, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: Ziryoku
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716d9e7abde68e04596f749022136f15, type: 3}
 --- !u!1001 &4761921837089046148
