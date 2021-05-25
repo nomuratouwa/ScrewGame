@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class magnetController : MonoBehaviour
 {
-    private bool Ziryoku = false;
+    [SerializeField] private bool Ziryoku = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,13 +17,14 @@ public class magnetController : MonoBehaviour
         var PointEffector = gameObject.GetComponent<PointEffector2D>();
         if (Ziryoku)
         {
-            PointEffector.enabled = false;
-            transform.Find("FX_Buff_final").gameObject.SetActive(false);
+            PointEffector.enabled = true;
+            transform.Find("FX_Buff_final").gameObject.SetActive(true);
         }
         else
         {
-            PointEffector.enabled = true;
-            transform.Find("FX_Buff_final").gameObject.SetActive(true);
+            PointEffector.enabled = false;
+            transform.Find("FX_Buff_final").gameObject.SetActive(false);
+
         }
     }
     public void MagnetClick()    //ƒNƒŠƒbƒN
