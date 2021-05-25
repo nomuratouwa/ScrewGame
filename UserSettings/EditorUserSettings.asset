@@ -12,6 +12,7 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c7b1f030419012d23333e24275326ece92021
       flags: 0
     RecentlyUsedScenePath-2:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c6c2437303d796c7968252320092a
       flags: 0
     RecentlyUsedScenePath-3:
@@ -28,12 +29,54 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c6c2437303d7e623d28393930
+=======
+      value: 22424703114646680e0b0227036c780504300d38623d28393930
+      flags: 0
+    RecentlyUsedScenePath-3:
+<<<<<<< HEAD
+      value: 22424703114646680e0b0227036c7b1f030419012d23333e24275326ece92021
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6c2437303d79623d28393930
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c6c2437303d796c7968252320092a
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c6c2437303d7e623d28393930
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c6c2437303d7f623d28393930
+=======
+      value: 22424703114646680e0b0227036c6c2437303d7e623d28393930
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c6c2437303d7f623d28393930
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c6c2437303d78623d28393930
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c6c2437303d79623d28393930
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c6b1505032b2929262323633c133af6f9
+>>>>>>> 9c22a2e4df19355aa33cfbff3c612838dc0e56e2
+>>>>>>> 7006a6099863e9cf02706736db3ea2741a098d32
       flags: 0
     RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c6c2437303d7b623d28393930
       flags: 0
     RecentlyUsedScenePath-9:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c6c2437303d79623d28393930
+=======
+<<<<<<< HEAD
+      value: 22424703114646680e0b0227036c6c2437303d78623d28393930
+=======
+      value: 22424703114646680e0b0227036c7b1f030419012d23333e24275326ece92021
+>>>>>>> 9c22a2e4df19355aa33cfbff3c612838dc0e56e2
+>>>>>>> 7006a6099863e9cf02706736db3ea2741a098d32
       flags: 0
   m_VCAutomaticAdd: 1
   m_VCDebugCom: 0
