@@ -8,7 +8,7 @@ public class NejiClick : MonoBehaviour
     GameObject PlayerObject;
     bool Fit = true;
     [SerializeField] bool Removefrag = false;
-    [SerializeField]  bool Naka = false;
+    [SerializeField] bool Naka = false;
 
     public Sprite SpriteNeji;
     public Sprite SpriteNejiana;
