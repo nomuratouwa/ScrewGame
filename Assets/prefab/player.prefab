@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5144870723837653596}
   - component: {fileID: 5144870723837653597}
-  - component: {fileID: 5144870723837653586}
+  - component: {fileID: 167947718899153284}
   - component: {fileID: 5144870723837653599}
   - component: {fileID: 5144870723837653598}
   - component: {fileID: 5144870723837653587}
@@ -87,8 +87,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5144870723837653586
-BoxCollider2D:
+--- !u!70 &167947718899153284
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -100,19 +100,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.033333335, y: -0.3333333}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3333334, y: 2}
-    newSize: {x: 1.3333334, y: 1.3333334}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
+  m_Offset: {x: 0.033333335, y: -0.33333334}
   m_Size: {x: 1, y: 1.3333334}
-  m_EdgeRadius: 0
+  m_Direction: 0
 --- !u!50 &5144870723837653599
 Rigidbody2D:
   serializedVersion: 4
@@ -150,6 +140,7 @@ MonoBehaviour:
   Jump: 600
   Pyon: 80
   PyonKankaku: 10
+  RandomSu: 0
   DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}
 --- !u!61 &5144870723837653587
 BoxCollider2D:
@@ -175,7 +166,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9248314, y: 0.3068509}
+  m_Size: {x: 0.9, y: 0.5}
   m_EdgeRadius: 0
 --- !u!95 &112691006
 Animator:

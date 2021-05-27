@@ -138,11 +138,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 837.04
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 365.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_LocalPosition.x
@@ -174,11 +182,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 314
+      value: 281.74
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 477
+      value: 309.27
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768640, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -193,9 +201,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768641, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
+      propertyPath: m_Text
+      value: 0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102808141527768641, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: b73b597a8799b5642ab8c32bd6459748, type: 3}
+    - target: {fileID: 1102808141527768641, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102808141527768641, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1102808141527768641, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 42
+      objectReference: {fileID: 0}
     - target: {fileID: 1102808141527768671, guid: d62bcbba04e068c49a1b003056816d17, type: 3}
       propertyPath: m_Name
       value: Time
