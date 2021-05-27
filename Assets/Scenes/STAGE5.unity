@@ -390,6 +390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: magnet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4765287964370132643, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: Ziryoku
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716d9e7abde68e04596f749022136f15, type: 3}
 --- !u!1001 &152502398
@@ -694,6 +698,10 @@ PrefabInstance:
     - target: {fileID: 1160800971916265767, guid: 716d9e7abde68e04596f749022136f15, type: 3}
       propertyPath: m_Name
       value: magnet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765287964370132643, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: Ziryoku
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716d9e7abde68e04596f749022136f15, type: 3}
@@ -1179,7 +1187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8665404186643757583, guid: d1cd6c35ede65494aa79d89818bee5d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.44
+      value: -3.37
       objectReference: {fileID: 0}
     - target: {fileID: 8665404186643757583, guid: d1cd6c35ede65494aa79d89818bee5d1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1289,6 +1297,10 @@ PrefabInstance:
     - target: {fileID: 1160800971916265767, guid: 716d9e7abde68e04596f749022136f15, type: 3}
       propertyPath: m_Name
       value: magnet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765287964370132643, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: Ziryoku
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716d9e7abde68e04596f749022136f15, type: 3}
@@ -3061,6 +3073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: magnet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4765287964370132643, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: Ziryoku
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716d9e7abde68e04596f749022136f15, type: 3}
 --- !u!1 &1570761079 stripped
@@ -4102,6 +4118,10 @@ PrefabInstance:
     - target: {fileID: 1160800971916265767, guid: 716d9e7abde68e04596f749022136f15, type: 3}
       propertyPath: m_Name
       value: magnet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765287964370132643, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: Ziryoku
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716d9e7abde68e04596f749022136f15, type: 3}
