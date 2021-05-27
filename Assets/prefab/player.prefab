@@ -120,9 +120,9 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1.5
   m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &5144870723837653598
 MonoBehaviour:
@@ -136,11 +136,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1179a9cecb5ada649a5ef9dbeb0097be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1050
+  Speed: 1000
   Jump: 600
-  Pyon: 80
+  Pyon: 100
   PyonKankaku: 10
-  RandomSu: 0
+  RandomSu: 0.05
   Cnt2: 0
   Ground: 1
   DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}
@@ -157,7 +157,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.030702114, y: -0.9767444}
+  m_Offset: {x: 0, y: -0.9767444}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -168,7 +168,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9, y: 0.5}
+  m_Size: {x: 0.22598076, y: 1}
   m_EdgeRadius: 0
 --- !u!95 &112691006
 Animator:
@@ -213,7 +213,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5144870725088669814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.12, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 357669213455732347}
