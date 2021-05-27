@@ -58,6 +58,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Cnt1 >= PyonRimit) Cnt1--;
         if (Cnt2 >= PyonRimit) Cnt2--;
+        Debug.Log(GetComponent<Rigidbody2D>().velocity);
     }
     void Move(float Key)
     {
