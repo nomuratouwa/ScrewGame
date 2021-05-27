@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
                     if (Cnt1 >= PyonRimit) Cnt1--;
                     anim.SetBool("walk", false);
                 }
-                if (Ground && VerticalKey > 0)//ジャンぷ
+                if (Ground && VerticalKey > 0)//ジャンプ
                 {
                     RB.AddForce(transform.up * Jump);
                     Cnt1 += PyonKankaku;
