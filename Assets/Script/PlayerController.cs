@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float Jump;      //ジャンプの高さ
     public float Pyon;      //移動するときのぴょんするときの高さ
     public int PyonKankaku; //ぴょんする間隔
+    public float RandomSu;  //ランダム
 
     private Rigidbody2D RB;
     private Animator anim = null;
@@ -95,7 +96,8 @@ public class PlayerController : MonoBehaviour
     }
     void DeathKansu()
     {
-        transform.Translate(0f, 0.1f, 0f);
+        float posX = Random.Range(-1 * RandomSu, RandomSu);
+        transform.Translate(posX, 0.2f, 0f);
         RB.velocity = new Vector2(0, RB.velocity.y);
         RB.gravityScale = 0;
     }
