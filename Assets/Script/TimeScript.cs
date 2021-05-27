@@ -22,13 +22,13 @@ public class TimeScript : MonoBehaviour
         LimitTime -= Time.deltaTime;
 
         //éûä‘Çï\é¶Ç∑ÇÈ
-        timeText.text = LimitTime.ToString("f1");
+        timeText.text = "ÇÃÇ±ÇË"+LimitTime.ToString("f1");
 
         //êßå¿éûä‘Ç…Ç»Ç¡ÇΩ
         if (LimitTime <= 0)
         {
             PlayerObject.GetComponent<PlayerController>().Die();
-            timeText.text = ("0.0");
+            timeText.text = ("ÇÃÇ±ÇË0.0");
         }
     }
 }
