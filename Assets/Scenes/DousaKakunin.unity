@@ -2191,61 +2191,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5144870723837653587, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_Size.x
-      value: 0.22598076
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653587, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653587, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653596, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653596, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653598, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: Pyon
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653598, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: Speed
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653598, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: RandomSu
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653599, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_Interpolate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653599, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5144870723837653599, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5144870725088669809, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5144870725088669809, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.48
+      value: -23.73
       objectReference: {fileID: 0}
     - target: {fileID: 5144870725088669809, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.18
+      value: 1.31
       objectReference: {fileID: 0}
     - target: {fileID: 5144870725088669809, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
       propertyPath: m_LocalPosition.z
