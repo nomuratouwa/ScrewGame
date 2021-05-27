@@ -1205,7 +1205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6298061594892249648, guid: 0f1046291ceb1a84ea6c42b45acea0f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.43
+      value: -20.35
       objectReference: {fileID: 0}
     - target: {fileID: 6298061594892249648, guid: 0f1046291ceb1a84ea6c42b45acea0f2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1486,11 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba49b4570ce95234ca02e652c4d20f21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   LimitTime: 100
-=======
-  LimitTime: 1000
->>>>>>> 618202cf5859daed6f5842c279343d77268a0d83
   timeText: {fileID: 1082450255}
 --- !u!1 &1029000649 stripped
 GameObject:
@@ -1773,6 +1769,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3322207527167348929, guid: 369800189fc802c4bbc9dbbb826110c5, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1827899097}
     - target: {fileID: 3322207527167348932, guid: 369800189fc802c4bbc9dbbb826110c5, type: 3}
       propertyPath: m_Name
       value: Canvas

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float Cnt2 = 0;     //ジャンプ間隔の計算
     private float PyonRimit = 1;//↑と同じ
     private bool Death = false;
-    [SerializeField] private bool Ground = true;  //今地面か判定
+    [SerializeField] private bool Ground = false;  //今地面か判定
     [SerializeField]  private Sprite DeathDriver;
 
     void Start()
