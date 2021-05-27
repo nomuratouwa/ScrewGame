@@ -14,9 +14,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D RB;
     private Animator anim = null;
     private float Cnt1;     //ぴょん間隔の計算
+    [SerializeField] private float Cnt2 = 0;     //ジャンプ間隔の計算
     private float PyonRimit = 1;//↑と同じ
     private bool Death = false;
-    private bool Ground = true;  //今地面か判定
+    [SerializeField] private bool Ground = true;  //今地面か判定
     [SerializeField]  private Sprite DeathDriver;
 
     void Start()
@@ -44,18 +45,19 @@ public class PlayerController : MonoBehaviour
                 else
                 {
                     RB.velocity = new Vector2(0, RB.velocity.y);
-                    if (Cnt1 >= PyonRimit) Cnt1--;
                     anim.SetBool("walk", false);
                 }
-                if (Ground && VerticalKey > 0)//ジャンプ
+                if (Cnt2 < PyonRimit && Ground && VerticalKey > 0)//ジャンプ
                 {
                     RB.AddForce(transform.up * Jump);
                     Cnt1 += PyonKankaku;
+                    Cnt2 += PyonKankaku;
                     Ground = false;
                 }
                 break;
-
         }
+        if (Cnt1 >= PyonRimit) Cnt1--;
+        if (Cnt2 >= PyonRimit) Cnt2--;
     }
     void Move(float Key)
     {
@@ -106,7 +108,6 @@ public class PlayerController : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground")
         {
-            if (!Ground)
                 Ground = true;
         }
         if (col.gameObject.tag == "DieZone" || col.gameObject.tag == "Electrical")
@@ -131,6 +132,10 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.tag == "Electrical")
         {
             Die();
+        }
+        if (col.gameObject.tag == "Ground")
+        {
+            Ground = true;
         }
     }
 }
