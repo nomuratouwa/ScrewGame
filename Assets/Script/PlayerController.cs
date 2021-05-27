@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Spin");
     }
 
-    void Die()
+    public void Die()
     {
         this.gameObject.GetComponent<SpriteRenderer>().sprite = DeathDriver;
         anim.SetBool("Die", true);
