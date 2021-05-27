@@ -140,7 +140,11 @@ MonoBehaviour:
   Jump: 600
   Pyon: 100
   PyonKankaku: 10
+<<<<<<< HEAD
   RandomSu: 0.05
+=======
+  RandomSu: 0
+>>>>>>> e34076a24eeeb6409cb0c62138a3c0e013883499
   Cnt2: 0
   Ground: 1
   DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}
