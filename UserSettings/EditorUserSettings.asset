@@ -27,6 +27,7 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c6c2437303d7e623d28393930
       flags: 0
     RecentlyUsedScenePath-7:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c6c2437303d79623d28393930
       flags: 0
     RecentlyUsedScenePath-8:
@@ -34,6 +35,15 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c6c2437303d7b623d28393930
+=======
+      value: 22424703114646680e0b0227036c6c2437303d7e623d28393930
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c6c2437303d7f623d28393930
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c6c2437303d78623d28393930
+>>>>>>> d240ae60b477760c077d6d99049a2f4cd8e36b78
       flags: 0
   m_VCAutomaticAdd: 1
   m_VCDebugCom: 0
