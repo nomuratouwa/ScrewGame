@@ -141,6 +141,8 @@ MonoBehaviour:
   Pyon: 80
   PyonKankaku: 10
   RandomSu: 0
+  Cnt2: 0
+  Ground: 1
   DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}
 --- !u!61 &5144870723837653587
 BoxCollider2D:
