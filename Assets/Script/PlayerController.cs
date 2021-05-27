@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     private float Cnt1;     //ぴょん間隔の計算
     private float PyonRimit = 1;//↑と同じ
     private bool Death = false;
-    private bool Ground = true;  //今地面と足ついてる？true そう false ちがいます
+    private bool Ground = true;  //今地面か判定
     [SerializeField]  private Sprite DeathDriver;
 
     void Start()
@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
     void DeathKansu()
     {
         float posX = Random.Range(-1 * RandomSu, RandomSu);
-        transform.Translate(posX, 0.2f, 0f);
+        transform.Translate(posX, 0.1f, 0f);
         RB.velocity = new Vector2(0, RB.velocity.y);
         RB.gravityScale = 0;
     }
