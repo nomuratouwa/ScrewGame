@@ -14,10 +14,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D RB;
     private Animator anim = null;
     private float Cnt1;     //ぴょん間隔の計算
-    [SerializeField] private float Cnt2 = 0;     //ジャンプ間隔の計算
+     private float Cnt2 = 0;     //ジャンプ間隔の計算
     private float PyonRimit = 1;//↑と同じ
     private bool Death = false;
-    [SerializeField] private bool Ground = false;  //今地面か判定
+    private bool Ground = false;  //今地面か判定
     [SerializeField]  private Sprite DeathDriver;
 
     void Start()
@@ -58,7 +58,6 @@ public class PlayerController : MonoBehaviour
         }
         if (Cnt1 >= PyonRimit) Cnt1--;
         if (Cnt2 >= PyonRimit) Cnt2--;
-        Debug.Log(GetComponent<Rigidbody2D>().velocity);
     }
     void Move(float Key)
     {

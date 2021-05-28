@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class OneShotSoundManager : MonoBehaviour
 {
     // Use this for initialization
     void Start()
@@ -13,8 +13,14 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // 左クリックしたら、効果音を鳴らす
-        if (Input.GetMouseButtonDown(0))
+        // 横移動したら、効果音を鳴らす
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A))
+        {
+            GetComponent<AudioSource>().Play();  // 効果音を鳴らす
+        }
+
+        // 横移動したら、効果音を鳴らす(長押しした場合)
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A))
         {
             GetComponent<AudioSource>().Play();  // 効果音を鳴らす
         }

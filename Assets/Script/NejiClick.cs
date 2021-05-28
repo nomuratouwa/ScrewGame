@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NejiClick : MonoBehaviour
 {
+    public GameObject NejiPrefab;
+
     GameObject OyaObject;
     GameObject PlayerObject;
     bool Fit = true;
@@ -37,6 +39,7 @@ public class NejiClick : MonoBehaviour
             if (Naka)
                 OyaObject.GetComponent<NejiController>().FixedEnabledComponent(this.gameObject);
             this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNejiana;
+            GameObject HazushiNeji = Instantiate(NejiPrefab, transform.position, Quaternion.identity);
             Fit = false;
         }
     }

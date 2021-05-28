@@ -84,7 +84,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fecd914f1e2bd084fb3f5ba1090aff62, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -245,9 +245,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -5028910431758514127, guid: b905987d394fc95419effce6353c6ac7,
-    type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -5028910431758514127, guid: b905987d394fc95419effce6353c6ac7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -314,8 +313,7 @@ MonoBehaviour:
   RandomSu: 0.05
   Cnt2: 0
   Ground: 1
-  DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7,
-    type: 3}
+  DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}
 --- !u!61 &5144870723837653587
 BoxCollider2D:
   m_ObjectHideFlags: 0

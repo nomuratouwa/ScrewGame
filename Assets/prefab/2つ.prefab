@@ -3037,7 +3037,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -9.9, y: 6}
+  m_ConnectedAnchor: {x: -0.67, y: 2.66}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3087,7 +3087,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.333333, y: 0}
+  m_ConnectedAnchor: {x: -1.3333333, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!255 &5445381670342515846
@@ -3105,7 +3105,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 6.550001, y: 0}
+  m_ConnectedAnchor: {x: 6.55, y: 0.00000047683716}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &697997727343475628
@@ -3120,6 +3120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec6542c57b47dc4ea63ae3bd4618c28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NejiPrefab: {fileID: 5066853456050719016, guid: b8b2db1c24a38d746810349bb4a2945f, type: 3}
+  Removefrag: 0
   Naka: 1
   SpriteNeji: {fileID: -6519384359405960787, guid: 846cea5e6d97c5d41b2301fc22e42981, type: 3}
   SpriteNejiana: {fileID: -9097401840661672530, guid: 846cea5e6d97c5d41b2301fc22e42981, type: 3}
@@ -3308,7 +3310,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -17.783333, y: 6}
+  m_ConnectedAnchor: {x: -6.864968, y: -2.2153804}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3358,7 +3360,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.3333321, y: 0}
+  m_ConnectedAnchor: {x: -1.333334, y: 0.00000023841858}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &1273526369420054883
@@ -3373,6 +3375,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec6542c57b47dc4ea63ae3bd4618c28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NejiPrefab: {fileID: 5066853456050719016, guid: b8b2db1c24a38d746810349bb4a2945f, type: 3}
+  Removefrag: 0
   Naka: 0
   SpriteNeji: {fileID: -6519384359405960787, guid: 846cea5e6d97c5d41b2301fc22e42981, type: 3}
   SpriteNejiana: {fileID: -9097401840661672530, guid: 846cea5e6d97c5d41b2301fc22e42981, type: 3}
@@ -3814,7 +3818,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.8999996, y: 6}
+  m_ConnectedAnchor: {x: 5.6166472, y: 7.6075315}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3838,7 +3842,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 6.666667, y: 0}
+  m_ConnectedAnchor: {x: 6.6666665, y: 0.00000047683716}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &3170105887892325204
@@ -3853,6 +3857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec6542c57b47dc4ea63ae3bd4618c28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NejiPrefab: {fileID: 5066853456050719016, guid: b8b2db1c24a38d746810349bb4a2945f, type: 3}
+  Removefrag: 0
   Naka: 0
   SpriteNeji: {fileID: -3303494650617490900, guid: 846cea5e6d97c5d41b2301fc22e42981, type: 3}
   SpriteNejiana: {fileID: -2698011182515614490, guid: 846cea5e6d97c5d41b2301fc22e42981, type: 3}
