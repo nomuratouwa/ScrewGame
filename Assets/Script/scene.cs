@@ -17,7 +17,13 @@ public class scene : MonoBehaviour
         
     }
 
-    public void RelordScene()
+    /*public void RelordScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+    }
+    */
+    public void PushRetryButton()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
