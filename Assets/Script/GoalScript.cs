@@ -9,10 +9,10 @@ public class GoalScript : MonoBehaviour
     public int StageNo; //ステージナンバー
 
     public GameObject GoalObject;
+    public GameObject SceneMangaer;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -33,6 +33,8 @@ public class GoalScript : MonoBehaviour
             //ゲームクリアテキストを表示
             GoalObject.GetComponent<Text>();
             GoalObject.SetActive(true);
+
+            SceneMangaer.GetComponent<scene>().ClearScene();
 
             // 3秒でクリア画面に遷移
             //SceneManager.LoadScene("ClearScene", 3.0f);
