@@ -381,6 +381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gamesystem
       objectReference: {fileID: 0}
+    - target: {fileID: 6279724023949508556, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+      propertyPath: LimitTime
+      value: 110
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
 --- !u!1001 &186913694
@@ -2784,8 +2788,16 @@ PrefabInstance:
       value: 10.116877
       objectReference: {fileID: 0}
     - target: {fileID: 1160800971916265765, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: m_Size.y
+      value: 7.6858873
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160800971916265765, guid: 716d9e7abde68e04596f749022136f15, type: 3}
       propertyPath: m_Offset.x
-      value: -0.00000023841858
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1160800971916265765, guid: 716d9e7abde68e04596f749022136f15, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.4646907
       objectReference: {fileID: 0}
     - target: {fileID: 1160800971916265767, guid: 716d9e7abde68e04596f749022136f15, type: 3}
       propertyPath: m_Name
