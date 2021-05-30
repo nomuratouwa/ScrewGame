@@ -364,6 +364,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4761921837612871831}
     m_Modifications:
+    - target: {fileID: 4460617954264170568, guid: bf1688db9b7de0f459696c94679d595d, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4460617954264170569, guid: bf1688db9b7de0f459696c94679d595d, type: 3}
       propertyPath: m_RootOrder
       value: 3

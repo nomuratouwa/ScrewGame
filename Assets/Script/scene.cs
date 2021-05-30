@@ -17,14 +17,8 @@ public class scene : MonoBehaviour
         
     }
 
-    /*public void RelordScene()
+    public void PushStartButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-    }
-    */
-    public void PushRetryButton()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("StageSelectScene");
     }
 }
