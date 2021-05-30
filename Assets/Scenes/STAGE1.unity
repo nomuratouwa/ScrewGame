@@ -913,6 +913,11 @@ PrefabInstance:
       objectReference: {fileID: 1827899097}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+--- !u!1 &633961349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6279724022707195424, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+  m_PrefabInstance: {fileID: 633961348}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &648796691 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4429312217045467123, guid: 4fd1655f49309434baff79abc64715f0, type: 3}
@@ -2062,6 +2067,10 @@ PrefabInstance:
       propertyPath: GoalObject
       value: 
       objectReference: {fileID: 1920503984}
+    - target: {fileID: 817979749, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: SceneMangaer
+      value: 
+      objectReference: {fileID: 633961349}
     - target: {fileID: 8996610521159674361, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
       propertyPath: m_Name
       value: goal(kari)

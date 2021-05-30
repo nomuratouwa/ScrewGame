@@ -32,5 +32,4 @@ public class scene : MonoBehaviour
         SceneManager.LoadScene("ClearScene");
     }
 
-
 }

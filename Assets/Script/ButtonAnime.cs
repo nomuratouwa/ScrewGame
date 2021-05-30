@@ -5,7 +5,7 @@ using UnityEngine;
 public class ButtonAnime : MonoBehaviour
 {
     public GameObject NejiPrefab;
-    bool Fit = true;
+//    bool Fit = true;
     public Sprite SpriteNeji;
     public Sprite SpriteNejiana;
 
@@ -14,6 +14,6 @@ public class ButtonAnime : MonoBehaviour
     {
         this.gameObject.GetComponent<SpriteRenderer>().sprite = SpriteNejiana;
         GameObject HazushiNeji = Instantiate(NejiPrefab, transform.position, Quaternion.identity);
-        Fit = false;
+//        Fit = false;
     }
 }
