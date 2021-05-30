@@ -34,7 +34,6 @@ public class NejiClick : MonoBehaviour
 
         if (Fit && Removefrag)
         {
-            Debug.Log("aaa");
             PlayerObject.GetComponent<PlayerController>().SpinAnim();
             OyaObject.GetComponent<NejiController>().HingeEnabledComponent(this.gameObject);
             if (Naka)
