@@ -1242,6 +1242,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6279724023949508556, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+      propertyPath: LimitTime
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 8736092254592961106, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: m_Camera
       value: 
