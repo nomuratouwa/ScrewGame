@@ -184,6 +184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fd1655f49309434baff79abc64715f0, type: 3}
+--- !u!4 &251439262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4429312217045467123, guid: 4fd1655f49309434baff79abc64715f0, type: 3}
+  m_PrefabInstance: {fileID: 333932916}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &256849432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -583,7 +588,7 @@ Transform:
   - {fileID: 1057906183}
   - {fileID: 1818236938}
   - {fileID: 1682813164}
-  - {fileID: 1035741188}
+  - {fileID: 251439262}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1224,6 +1229,18 @@ PrefabInstance:
     - target: {fileID: 6279724022586459399, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: m_Name
       value: gamesystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6279724023507630795, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RelordScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6279724023507630795, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: scene, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6279724023507630795, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8736092254592961106, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: m_Camera
