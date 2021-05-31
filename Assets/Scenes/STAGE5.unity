@@ -4233,7 +4233,7 @@ Transform:
   - {fileID: 2144558630}
   - {fileID: 1589228176}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1923000087
 PrefabInstance:
@@ -4637,6 +4637,22 @@ PrefabInstance:
       propertyPath: SceneMangaer
       value: 
       objectReference: {fileID: 178815552}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5883884
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4181174
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0138757825
+      objectReference: {fileID: 0}
     - target: {fileID: 8996610521159674361, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
       propertyPath: m_Name
       value: goal(kari)

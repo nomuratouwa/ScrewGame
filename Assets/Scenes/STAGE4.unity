@@ -3738,6 +3738,22 @@ PrefabInstance:
       propertyPath: SceneMangaer
       value: 
       objectReference: {fileID: 103686311}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Size.x
+      value: 1.6497812
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4016917
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.03553188
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.06147346
+      objectReference: {fileID: 0}
     - target: {fileID: 8996610521159674361, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
       propertyPath: m_Name
       value: goal(kari)
