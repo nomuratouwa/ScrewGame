@@ -140,11 +140,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2239949067171831891, guid: be21db7b02ff1d247a1bb1a7f71634ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.05
+      value: -3.1866674
       objectReference: {fileID: 0}
     - target: {fileID: 2239949067171831891, guid: be21db7b02ff1d247a1bb1a7f71634ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6529164
+      value: 3.6826186
       objectReference: {fileID: 0}
     - target: {fileID: 2239949067171831891, guid: be21db7b02ff1d247a1bb1a7f71634ea, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3312,6 +3312,22 @@ PrefabInstance:
       propertyPath: SceneMangaer
       value: 
       objectReference: {fileID: 75153931}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3240906
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2849648
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.011802137
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979753, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.00000011920929
+      objectReference: {fileID: 0}
     - target: {fileID: 8996610521159674361, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
       propertyPath: m_Name
       value: goal(kari)
