@@ -13,9 +13,11 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D RB;
     private Animator anim = null;
-    private float Cnt1;     //ぴょん間隔の計算
-     private float Cnt2 = 0;     //ジャンプ間隔の計算
+    private GameObject SceneMangaer;
+    private float Cnt1;     //タイム系の計算1
+     private float Cnt2 = 0;     //タイム系の計算2
     private float PyonRimit = 1;//↑と同じ
+    private float DeathTime = 3;
     private bool Death = false;
     private bool Ground = false;  //今地面か判定
     [SerializeField]  private Sprite DeathDriver;
@@ -24,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        SceneMangaer = GameObject.Find("SceneManager");
     }
 
     void FixedUpdate()
@@ -54,7 +57,11 @@ public class PlayerController : MonoBehaviour
                     Cnt2 += PyonKankaku;
                     Ground = false;
                 }
-                break;
+                if (Input.GetButtonDown("Relord"))
+                {
+                    Die();
+                }
+                    break;
         }
         if (Cnt1 >= PyonRimit) Cnt1--;
         if (Cnt2 >= PyonRimit) Cnt2--;
@@ -95,6 +102,7 @@ public class PlayerController : MonoBehaviour
         this.gameObject.GetComponent<SpriteRenderer>().sprite = DeathDriver;
         anim.SetBool("Die", true);
         Death = true;
+        
     }
     void DeathKansu()
     {
@@ -102,6 +110,9 @@ public class PlayerController : MonoBehaviour
         transform.Translate(posX, 0.1f, 0f);
         RB.velocity = new Vector2(0, RB.velocity.y);
         RB.gravityScale = 0;
+        DeathTime -= Time.deltaTime;
+        if (DeathTime <= 0)
+            SceneMangaer.GetComponent<scene>().RelordScene();//Sceneリセット
     }
     //着地判定
     void OnTriggerEnter2D(Collider2D col)
@@ -109,6 +120,7 @@ public class PlayerController : MonoBehaviour
         if (col.gameObject.tag == "Ground")
         {
                 Ground = true;
+
         }
         if (col.gameObject.tag == "DieZone" || col.gameObject.tag == "Electrical")
         {
