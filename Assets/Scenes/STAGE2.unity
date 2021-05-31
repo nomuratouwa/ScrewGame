@@ -827,11 +827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5527515744811507418, guid: 9e068b51fee2824459182dc0b446acbb, type: 3}
       propertyPath: Kyori
-      value: 800
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 5527515744811507418, guid: 9e068b51fee2824459182dc0b446acbb, type: 3}
       propertyPath: speed
-      value: 0.02
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5527515744811507419, guid: 9e068b51fee2824459182dc0b446acbb, type: 3}
       propertyPath: m_Name
@@ -1269,7 +1269,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279724023949508556, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: LimitTime
-      value: 90
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 8736092254592961106, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: m_Camera
