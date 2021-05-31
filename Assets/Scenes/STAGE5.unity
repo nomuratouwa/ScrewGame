@@ -4233,11 +4233,7 @@ Transform:
   - {fileID: 2144558630}
   - {fileID: 1589228176}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
-  m_RootOrder: 8
-=======
   m_RootOrder: 7
->>>>>>> dffb508ab2a2187a50fc450dc5165f9a70d37a3f
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1923000087
 PrefabInstance:
