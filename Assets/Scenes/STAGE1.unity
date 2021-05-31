@@ -1796,9 +1796,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6200973446641997922, guid: 56831b65685170e4b8ec029623c2a312, type: 3}
+      propertyPath: m_Text
+      value: "R\u30DC\u30BF\u30F3\u3092\u62BC\u3059\u3068\u30EA\u30BB\u30C3\u30C8"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6200973446641997922, guid: 56831b65685170e4b8ec029623c2a312, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 5833e5b4913ed7e4e9d4682f2b491337, type: 3}
+    - target: {fileID: 6200973446641997923, guid: 56831b65685170e4b8ec029623c2a312, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 45.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 6200973446641997923, guid: 56831b65685170e4b8ec029623c2a312, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 14.85
+      objectReference: {fileID: 0}
     - target: {fileID: 6200973446947154413, guid: 56831b65685170e4b8ec029623c2a312, type: 3}
       propertyPath: m_SizeDelta.x
       value: 306.15
