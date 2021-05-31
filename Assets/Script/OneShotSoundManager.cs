@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class OneShotSoundManager : MonoBehaviour
 {
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -24,5 +19,9 @@ public class OneShotSoundManager : MonoBehaviour
         {
             GetComponent<AudioSource>().Play();  // Œø‰Ê‰¹‚ð–Â‚ç‚·
         }
+    }*/
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().Play();  // Œø‰Ê‰¹‚ð–Â‚ç‚·
     }
 }
