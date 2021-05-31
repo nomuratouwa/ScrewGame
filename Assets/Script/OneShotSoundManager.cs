@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class OneShotSoundManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource Source;//AudioSource
+
+    [SerializeField] private AudioClip Clip1;//Œø‰Ê‰¹1 ‘«‰¹
+    [SerializeField] private AudioClip Clip2;//Œø‰Ê‰¹2 ƒ¶_ƒÄ‹)Á°İ
     /*
     // Update is called once per frame
     void Update()
@@ -20,8 +24,12 @@ public class OneShotSoundManager : MonoBehaviour
             GetComponent<AudioSource>().Play();  // Œø‰Ê‰¹‚ğ–Â‚ç‚·
         }
     }*/
-    public void PlaySound()
+    public void PlaySound1()
     {
-        GetComponent<AudioSource>().Play();  // Œø‰Ê‰¹‚ğ–Â‚ç‚·
+        Source.PlayOneShot(Clip1);  // Œø‰Ê‰¹‚ğ–Â‚ç‚·
+    }
+    public void PlaySound2()
+    {
+        Source.PlayOneShot(Clip2);  // Œø‰Ê‰¹‚ğ–Â‚ç‚·
     }
 }

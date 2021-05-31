@@ -103,6 +103,7 @@ public class PlayerController : MonoBehaviour
     {
         this.gameObject.GetComponent<SpriteRenderer>().sprite = DeathDriver;
         anim.SetBool("Die", true);
+        SoundObject.GetComponent<OneShotSoundManager>().PlaySound2(); //しぬおと
         Death = true;
         
     }
@@ -121,11 +122,11 @@ public class PlayerController : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground")
         {
-            SoundObject.GetComponent<OneShotSoundManager>().PlaySound();
+            SoundObject.GetComponent<OneShotSoundManager>().PlaySound1();
             Ground = true;
 
         }
-        if (col.gameObject.tag == "DieZone" || col.gameObject.tag == "Electrical")
+        if (col.gameObject.tag == "DieZone" || col.gameObject.tag == "Electrical" && !Death)
         {
             Die();
         }
@@ -144,7 +145,7 @@ public class PlayerController : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Electrical")
+        if (col.gameObject.tag == "Electrical" && !Death)
         {
             Die();
         }

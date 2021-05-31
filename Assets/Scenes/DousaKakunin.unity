@@ -232,6 +232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2abd360f51e4f574c8690e2e3146aef1, type: 3}
+--- !u!82 &121565948 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4048779312673492222, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
+  m_PrefabInstance: {fileID: 1892818181}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &273837714 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6279724022707195424, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
@@ -669,7 +674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279724023949508556, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: LimitTime
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
@@ -1933,6 +1938,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2784364786016766485, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
+      propertyPath: Clip1
+      value: 
+      objectReference: {fileID: 8300000, guid: fecd914f1e2bd084fb3f5ba1090aff62, type: 3}
+    - target: {fileID: 2784364786016766485, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
+      propertyPath: Clip2
+      value: 
+      objectReference: {fileID: 8300000, guid: 5517fe56f6cb68541bbf6ef5d6bbebc7, type: 3}
+    - target: {fileID: 2784364786016766485, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
+      propertyPath: Source
+      value: 
+      objectReference: {fileID: 121565948}
     - target: {fileID: 4048779312673492222, guid: 7f47931c7d1e9734f8e0b6a2a692790c, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
