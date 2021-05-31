@@ -10,6 +10,7 @@ public class TimeScript : MonoBehaviour
     //時間を表示する変数
     public Text timeText;
     private GameObject PlayerObject;
+    private bool Sound = false;
     void Start()
     {
         //プレイヤーオブジェクト取得
@@ -24,6 +25,11 @@ public class TimeScript : MonoBehaviour
         //時間を表示する
         timeText.text = "のこり"+LimitTime.ToString("f1");
 
+        if (LimitTime <= 10&&!Sound)
+        {
+            Sound = true;
+            GetComponent<AudioSource>().Play();  // 効果音を鳴らす
+        }
         //制限時間になった
         if (LimitTime <= 0)
         {
