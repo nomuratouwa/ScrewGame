@@ -665,7 +665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279724023949508556, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: KikenTime
-      value: 23
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6279724023949508556, guid: 360777e7d3163f149b90091c9ef9aab1, type: 3}
       propertyPath: LimitTime
@@ -850,7 +850,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b90803ca74c544545a529c50fe548bd1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.145
   m_Pitch: 1
   Loop: 0
   Mute: 0
