@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D RB;
     private Animator anim = null;
     private GameObject SceneMangaer;
+    private GameObject SoundObject;
     private float Cnt1;     //タイム系の計算1
      private float Cnt2 = 0;     //タイム系の計算2
     private float PyonRimit = 1;//↑と同じ
@@ -27,6 +28,7 @@ public class PlayerController : MonoBehaviour
         RB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         SceneMangaer = GameObject.Find("SceneManager");
+        SoundObject = GameObject.Find("OneShotSoundManager");
     }
 
     void FixedUpdate()
@@ -119,7 +121,8 @@ public class PlayerController : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground")
         {
-                Ground = true;
+            SoundObject.GetComponent<OneShotSoundManager>().PlaySound();
+            Ground = true;
 
         }
         if (col.gameObject.tag == "DieZone" || col.gameObject.tag == "Electrical")
@@ -145,8 +148,9 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
-        if (col.gameObject.tag == "Ground")
+        if (col.gameObject.tag == "Ground"&&!Ground)
         {
+           // SoundObject.GetComponent<OneShotSoundManager>().PlaySound();
             Ground = true;
         }
     }
