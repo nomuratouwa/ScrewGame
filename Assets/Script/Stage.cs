@@ -48,4 +48,8 @@ public class Stage : MonoBehaviour
     {
         SceneManager.LoadScene("STAGE" + stageNo);
     }
+    public void PushTutlialButton()
+    {
+        SceneManager.LoadScene("Sousahouhou");
+    }
 }
