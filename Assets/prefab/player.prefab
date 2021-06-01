@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1100
-  Jump: 500
+  JumpHigh: 550
   Pyon: 80
   PyonKankaku: 10
   RandomSu: 0.05
