@@ -111,13 +111,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: EffectFrag
       objectReference: {fileID: 0}
+    - target: {fileID: 7704730393792804874, guid: 05218d981993119499122bde38e9eca3, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4681535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7704730393792804874, guid: 05218d981993119499122bde38e9eca3, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.7435372
+      objectReference: {fileID: 0}
     - target: {fileID: 7704730393792804875, guid: 05218d981993119499122bde38e9eca3, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7704730393792804875, guid: 05218d981993119499122bde38e9eca3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7704730393792804875, guid: 05218d981993119499122bde38e9eca3, type: 3}
       propertyPath: m_LocalPosition.y
