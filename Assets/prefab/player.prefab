@@ -311,8 +311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 1100
-  Jump: 600
-  Pyon: 110
+  Jump: 500
+  Pyon: 80
   PyonKankaku: 10
   RandomSu: 0.05
   DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}

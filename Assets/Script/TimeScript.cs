@@ -12,6 +12,8 @@ public class TimeScript : MonoBehaviour
 
     //ŠÔ‚ğ•\¦‚·‚é•Ï”
     public Text timeText;
+
+    private bool Over = false;
     private GameObject BGMObject;
     private GameObject PlayerObject;
     private bool Sound = false;
@@ -39,8 +41,9 @@ public class TimeScript : MonoBehaviour
         //§ŒÀŠÔ‚É‚È‚Á‚½
         if (NokoriTime <= 0)
         {
-            PlayerObject.GetComponent<PlayerController>().Die();
             timeText.text = ("‚Ì‚±‚è0.0");
+            if (!Over)
+                LimitOver();
         }
     }
 
@@ -49,6 +52,12 @@ public class TimeScript : MonoBehaviour
         Sound = true;
         GetComponent<AudioSource>().Play();  // Œø‰Ê‰¹‚ğ–Â‚ç‚·
         BGMObject.GetComponent<AudioSource>().pitch = 1.2f;
+    }
+
+    void LimitOver()
+    {
+        Over = true;
+        PlayerObject.GetComponent<PlayerController>().Die();
     }
     
     public static float GetTime()

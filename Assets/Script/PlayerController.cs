@@ -54,6 +54,7 @@ public class PlayerController : MonoBehaviour
                 }
                 if (Cnt2 < PyonRimit && Ground && VerticalKey > 0)//ジャンプ
                 {
+                    RB.velocity = new Vector2(RB.velocity.x, 0);  //y軸の力をリセット
                     RB.AddForce(transform.up * Jump);
                     Cnt1 += PyonKankaku;
                     Cnt2 += PyonKankaku;
@@ -89,6 +90,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Ground)
         {
+            RB.velocity = new Vector2(RB.velocity.x, 0);  //y軸の力をリセット
             RB.AddForce(transform.up * Pyon);
         }
         transform.localEulerAngles = Muki;
@@ -101,6 +103,7 @@ public class PlayerController : MonoBehaviour
 
     public void Die()
     {
+       // RB.velocity = new Vector2(RB.velocity.x, 0);  //y軸の力をリセット
         this.gameObject.GetComponent<SpriteRenderer>().sprite = DeathDriver;
         anim.SetBool("Die", true);
         SoundObject.GetComponent<OneShotSoundManager>().PlaySound2(); //しぬおと
@@ -109,9 +112,9 @@ public class PlayerController : MonoBehaviour
     }
     void DeathKansu()
     {
-        float posX = Random.Range(-1 * RandomSu, RandomSu);
-        transform.Translate(posX, 0.1f, 0f);
-        RB.velocity = new Vector2(0, RB.velocity.y);
+        //float posX = Random.Range(-1 * RandomSu, RandomSu);
+        transform.Translate(0, 0.1f, 0f);
+        RB.velocity = new Vector2(0, RB.velocity.y);  //上に移動　成仏てきな
         RB.gravityScale = 0;
         DeathTime -= Time.deltaTime;
         if (DeathTime <= 0)
