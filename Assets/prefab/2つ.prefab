@@ -235,7 +235,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &707785923284487864
@@ -494,7 +493,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1008363110692756495
@@ -643,7 +641,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1096520701871408931
@@ -902,7 +899,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1283877516252193911
@@ -1161,7 +1157,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1584665259967608512
@@ -1310,7 +1305,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1672013608443063788
@@ -1459,7 +1453,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &2309979504620827809
@@ -1718,7 +1711,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &2429418949150369227
@@ -1768,7 +1760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2745419205020691301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3333334, y: 0, z: 0}
+  m_LocalPosition: {x: 1.5533346, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1559068967186239220}
@@ -2283,7 +2275,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &4038887045960900206
@@ -2542,7 +2533,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &4158150570806578948
@@ -2789,7 +2779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4677814299574555026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.22, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7620181250419221616}
@@ -2886,7 +2876,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &4677814299574555031
@@ -2922,7 +2911,6 @@ GameObject:
   - component: {fileID: 4784217680493624502}
   - component: {fileID: 3027502921849811561}
   - component: {fileID: 8289147054870695550}
-  - component: {fileID: 2237065740029492497}
   - component: {fileID: 5405741102687798462}
   - component: {fileID: 5445381670342515846}
   - component: {fileID: 697997727343475628}
@@ -3037,7 +3025,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.67, y: 2.66}
+  m_ConnectedAnchor: {x: 7.267157, y: 0.7107843}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3046,32 +3034,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 359
---- !u!61 &2237065740029492497
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5445381670342515845}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3333334, y: 1.3333334}
-    newSize: {x: 1.3333334, y: 1.3333334}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.3333334, y: 1.3333334}
-  m_EdgeRadius: 0
 --- !u!255 &5405741102687798462
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -3087,7 +3049,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.3333333, y: 0}
+  m_ConnectedAnchor: {x: -1.5533347, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!255 &5445381670342515846
@@ -3105,7 +3067,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 6.55, y: 0.00000047683716}
+  m_ConnectedAnchor: {x: 6.55, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &697997727343475628
@@ -3310,7 +3272,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -6.864968, y: -2.2153804}
+  m_ConnectedAnchor: {x: -0.6161771, y: 0.7107843}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3360,7 +3322,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.333334, y: 0.00000023841858}
+  m_ConnectedAnchor: {x: -1.333334, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &1273526369420054883
@@ -3564,7 +3526,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &7259424630134119358
@@ -3818,7 +3779,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 5.6166472, y: 7.6075315}
+  m_ConnectedAnchor: {x: 15.267157, y: 0.7107843}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3842,7 +3803,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 6.6666665, y: 0.00000047683716}
+  m_ConnectedAnchor: {x: 6.446665, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &3170105887892325204
@@ -4046,7 +4007,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  EffectFrag: 0
   Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &8988367358027100529
