@@ -6,9 +6,14 @@ public class ElectricScript : MonoBehaviour
 {
     public int ElekTime = 100;      //電気の強さ　　値が大きいと伝導しやすくなる
     public  bool Minamoto = false;      //同源かどうか
+    public Sprite Sunder;               //デバック用電気のスプライト
     private ElectricScript Script;
+    void Start()
+    {
 
-
+        this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
+    }
+    
     void Update()
     {
         if (ElekTime>0)
@@ -42,6 +47,7 @@ public class ElectricScript : MonoBehaviour
     {
         if (col.gameObject.tag == "Electrical")
         {
+            //Debug.Log("Test!!!!!!!!");
             Script = col.gameObject.GetComponent<ElectricScript>();
             if (Script.ElekTime > 0 && !Minamoto)
             {
