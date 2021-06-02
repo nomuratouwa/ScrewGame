@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class hazikiScript : MonoBehaviour
 {
-    [SerializeField] private float Takasa = 100;
-    [SerializeField] private float Yoko = 100;
+    [SerializeField] private float Takasa = 100;    //↑に飛ぶ強さの最大値
+    [SerializeField] private float Yoko = 100;      //横に飛ぶ強さの最大値
     private Rigidbody2D RB;
-    // Start is called before the first frame update
+
     void Start()
     {
-        Takasa = Random.Range(-1 * Takasa, Takasa);
-        Yoko = Random.Range(-1 * Yoko, Yoko);
+        Takasa = Random.Range(0, Takasa);           //↑の強さをランダムに
+        Yoko = Random.Range(-1 * Yoko, Yoko);       //左右の強さをランダムに
         RB = GetComponent<Rigidbody2D>();
-        RB.AddForce(transform.up * Takasa);
-        RB.AddForce(transform.right * Yoko);
-        RB.AddTorque(-Yoko);
+        RB.AddForce(transform.up * Takasa);         //上方向の力を加える
+        RB.AddForce(transform.right * Yoko);        //横方向に力を加える
+        RB.AddTorque(-Yoko);                        //回転に変数Yokoのマイナスの力を加える（マイナスだとイイ感じに回転してくれる）
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

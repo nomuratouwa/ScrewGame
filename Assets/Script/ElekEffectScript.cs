@@ -16,14 +16,14 @@ public class ElekEffectScript : MonoBehaviour
     void Update()
     {
 
-        if (ElekTime > 0)
+        if (ElekTime > 0)//電気が流れているなら
         {
                 ElekTime--;
-                transform.Find("LIGHTNING").gameObject.SetActive(true);
+                transform.Find("LIGHTNING").gameObject.SetActive(true);     //エフェクト表示
         }
         else
         {
-            transform.Find("LIGHTNING").gameObject.SetActive(false);
+            transform.Find("LIGHTNING").gameObject.SetActive(false);        //エフェクト非表示
 
         }
 

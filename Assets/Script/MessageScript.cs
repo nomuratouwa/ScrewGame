@@ -5,30 +5,30 @@ using UnityEngine;
 public class MessageScript : MonoBehaviour
 {
     public CanvasGroup canvasGroup;
-    public float FeedTime = 0.01f;
+    public float FeedTime = 0.01f;      //すけるorすけないまでの時間
 
     private bool PlayerHantei = false;
-    // Start is called before the first frame update
+
     void Start()
     {
-        canvasGroup.alpha = 0f;
+        canvasGroup.alpha = 0f;         //開始時には透明に
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        if (PlayerHantei)
+        if (PlayerHantei)       //近くにプレイヤーがいる
         {
-            if (canvasGroup.alpha < 1.0f)
-                canvasGroup.alpha += FeedTime;
+            if (canvasGroup.alpha < 1.0f)           //100%現れるまで
+                canvasGroup.alpha += FeedTime;      //透明ドを下げる
         }
         else
         {
-            if (canvasGroup.alpha > 0.0f)
+            if (canvasGroup.alpha > 0.0f)           //上の逆
                 canvasGroup.alpha -= FeedTime;
         }
     }
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)           //近くにプレイヤーがいるか
     {
         if (col.gameObject.name == "NejiHazushi")
         {

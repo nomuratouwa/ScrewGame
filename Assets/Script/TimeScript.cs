@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class TimeScript : MonoBehaviour
 {
     
-    public  float LimitTime = 5.0f;
-    public static float NokoriTime;
-    public float KikenTime = 20.0f;
+    public  float LimitTime = 5.0f;     //制限時間
+    public static float NokoriTime;     //リザルトで表示するためのstatic　それ以外で使わない（予定）
+    public float KikenTime = 20.0f;     //制限に近づいてるよの演出するタイム
 
     //時間を表示する変数
     public Text timeText;
@@ -54,13 +54,13 @@ public class TimeScript : MonoBehaviour
         BGMObject.GetComponent<AudioSource>().pitch = 1.2f;
     }
 
-    void LimitOver()
+    void LimitOver()        //時間オーバー
     {
         Over = true;
         PlayerObject.GetComponent<PlayerController>().Die();
     }
     
-    public static float GetTime()
+    public static float GetTime()   //時間のゲッター
     {
         return NokoriTime;
     }
