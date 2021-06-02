@@ -6,24 +6,19 @@ public class ElectricScript : MonoBehaviour
 {
     public int ElekTime = 100;      //電気の強さ　　値が大きいと伝導しやすくなる
     public  bool Minamoto = false;      //同源かどうか
-    [SerializeField] private bool Debug = false;
     public Sprite Sunder;               //デバック用電気のスプライト
     private ElectricScript Script;
-    // Start is called before the first frame update
     void Start()
     {
 
         this.gameObject.GetComponent<SpriteRenderer>().sprite = null;
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (ElekTime>0)
         {
             this.tag = "Electrical";            //タグを入れる
-            if(Debug)
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = Sunder;
             if (!Minamoto)
                 ElekTime--;
         }
@@ -31,8 +26,6 @@ public class ElectricScript : MonoBehaviour
         {
 
             this.tag = "Untagged";              //タグを外す
-            if (Debug)
-                this.gameObject.GetComponent<SpriteRenderer>().sprite = null;  //デバック用
         }
 
         //↓何故か親子関係でもワールド座標に固定化されてしまうのでローカル座標を固定する

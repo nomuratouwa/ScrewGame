@@ -17,7 +17,7 @@ public class otoPitch : MonoBehaviour
     void Update()
     {
         Cnt1++;
-        if (Cnt1 > 50)
+        if (Cnt1 > 25)
         {
             Cnt1 = 0;
             audioSource.pitch =  Random.Range( -pitch, pitch) ;

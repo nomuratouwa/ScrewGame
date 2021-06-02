@@ -7,17 +7,11 @@ public class ClearTimeScript : MonoBehaviour
 {
     public Text CleartimeText;
     
-    // Start is called before the first frame update
     void Start()
     {
-        float Time = TimeScript.GetTime();
-        CleartimeText.text = "クリア―タイム　：　" + Time.ToString("f2");
-        print(Time);
+        float Time = TimeScript.GetTime();                                  //TimeScriptからクリアタイムを取得
+        CleartimeText.text = "クリア―タイム　：　" + Time.ToString("f2");     //クリアタイムを表示する
+        //print(Time);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
