@@ -4454,11 +4454,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6279724023349134412}
-<<<<<<< HEAD
-  m_Enabled: 1
-=======
   m_Enabled: 0
->>>>>>> 56ab7c1018c9202237c81c70d5ae581ce30c8515
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba49b4570ce95234ca02e652c4d20f21, type: 3}
   m_Name: 
@@ -4683,10 +4679,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 8736092254347192632}
-<<<<<<< HEAD
-=======
   - {fileID: 1119125985}
->>>>>>> 56ab7c1018c9202237c81c70d5ae581ce30c8515
   m_Father: {fileID: 6279724021953707648}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
