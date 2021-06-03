@@ -315,7 +315,6 @@ MonoBehaviour:
   Pyon: 80
   PyonKankaku: 10
   RandomSu: 0.05
-  DeathDriver: {fileID: 6375381944109914557, guid: b905987d394fc95419effce6353c6ac7, type: 3}
 --- !u!61 &5144870723837653587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -571,7 +570,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: ce52621f9546b2f46b50b9eb7c893e90, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.21960784}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.65882355}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
