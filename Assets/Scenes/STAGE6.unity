@@ -1283,6 +1283,7 @@ GameObject:
   - component: {fileID: 566214129}
   - component: {fileID: 566214131}
   - component: {fileID: 566214130}
+  - component: {fileID: 566214132}
   m_Layer: 5
   m_Name: StuffedRoll
   m_TagString: Untagged
@@ -1330,7 +1331,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: db9ac4086539e2f499566386d4c1c546, type: 3}
     m_FontSize: 41
     m_FontStyle: 0
     m_BestFit: 0
@@ -1342,7 +1343,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "<color=aqua><size=76>program</size></color>\n\n\u80FD\u6751\u900F\u548C\n\n<color=aqua><size=76>Sound</size></color>\n\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Design</size></color>\n\n\u80FD\u6751\u900F\u548C\n\n<color=aqua><size=76>Effect</size></color>\n\n\n\n<color=aqua><size=76>Production</size></color>\n\n\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u5DE5\u623F\u653F\u7B56\u59D4\u54E1\u4F1A"
+  m_Text: "<color=aqua><size=76>program</size></color>\n\n\u5929\u91CE\u5C0B\n\u9234\u6728\u99FF\u4ECB\n\u80FD\u6751\u900F\u548C\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Sound</size></color>\n\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Design</size></color>\n\n\u80FD\u6751\u900F\u548C\n\n<color=aqua><size=76>Effect</size></color>\n\n\u5929\u91CE\u5C0B\n\u9234\u6728\u99FF\u4ECB\n\n<color=aqua><size=76>Production</size></color>\n\n\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u5DE5\u623F\u653F\u7B56\u59D4\u54E1\u4F1A"
 --- !u!222 &566214131
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1351,6 +1352,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566214128}
   m_CullTransparentMesh: 1
+--- !u!114 &566214132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566214128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01e8aba0468fb246bda5022a4e9a342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &589667916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2053,7 +2066,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1119125986
