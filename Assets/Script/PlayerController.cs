@@ -143,7 +143,7 @@ public class PlayerController : MonoBehaviour
     //着地判定
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Ground")
+        if (col.gameObject.tag == "Ground" && !Death)
         {
             SoundObject.GetComponent<OneShotSoundManager>().PlaySound1();       //着地音
             Ground = true;
