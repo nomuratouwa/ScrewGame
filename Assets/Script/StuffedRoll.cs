@@ -9,8 +9,8 @@ public class StuffedRoll : MonoBehaviour
     [SerializeField]
     private float textScrollSpeed = 30;
     //　テキストの制限位置
-    //[SerializeField]
-    //private float limitPosition = 730f;
+    [SerializeField]
+    private float limitPosition = 730f;
     //　エンドロールが終了したかどうか
     private bool isStopEndRoll;
     //　シーン移動用コルーチン
