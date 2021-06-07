@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     public float JumpHigh;      //ジャンプの高さ
     public float Pyon;          //移動するときのぴょんするときの高さ
     public int PyonKankaku;     //ぴょんする間隔
-    public float RandomSu;      //ランダム
 
     private Rigidbody2D RB;
     private Animator anim = null;

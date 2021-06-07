@@ -8,7 +8,7 @@ public class OuhukuScript : MonoBehaviour
     public float speed = 0.05f;         //スピ―ド
     public float Kyori = 100;           //距離
     public bool Yoko = true;            //
-    public bool Tate = true;            //横化縦かどっちもトル―だと斜め
+    public bool Tate = true;            //横か縦かどっちもだと斜め
 
     private int Kyoricount;
     private int count = 0;

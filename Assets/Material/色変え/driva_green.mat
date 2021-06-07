@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ChangeColor
+  m_Name: driva_green
   m_Shader: {fileID: 4800000, guid: c67d7d7e213bfe14dbaa3286edaa6deb, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -91,7 +91,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Hue: 120
+    - _Hue: 154
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
