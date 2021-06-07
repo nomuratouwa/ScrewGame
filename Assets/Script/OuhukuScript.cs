@@ -5,10 +5,10 @@ using UnityEngine;
 public class OuhukuScript : MonoBehaviour
 {
 
-    public float speed = 0.05f;         //スピ―ド
-    public float Kyori = 100;           //距離
-    public bool Yoko = true;            //
-    public bool Tate = true;            //横か縦かどっちもだと斜め
+    [SerializeField] private float speed = 0.05f;         //スピ―ド
+    [SerializeField] private float Kyori = 100;           //距離
+    [SerializeField] private bool Yoko = true;            //
+    [SerializeField] private bool Tate = true;            //横か縦かどっちもだと斜め
 
     private int Kyoricount;
     private int count = 0;

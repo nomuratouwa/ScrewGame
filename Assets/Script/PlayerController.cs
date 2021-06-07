@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float Speed;         //はやさ
-    public float JumpHigh;      //ジャンプの高さ
-    public float Pyon;          //移動するときのぴょんするときの高さ
-    public int PyonKankaku;     //ぴょんする間隔
+    [SerializeField] private float Speed;         //はやさ
+    [SerializeField] private float JumpHigh;      //ジャンプの高さ
+    [SerializeField] private float Pyon;          //移動するときのぴょんするときの高さ
+    [SerializeField] private int PyonKankaku;     //ぴょんする間隔
 
     private Rigidbody2D RB;
     private Animator anim = null;
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
         RB.gravityScale = 0;
         DeathTime -= Time.deltaTime;
         if (DeathTime <= 0)
-            SceneMangaer.GetComponent<scene>().RelordScene();//Sceneリセット
+            SceneMangaer.GetComponent<StageScene>().RelordScene();//Sceneリセット
     }
 
     void LifeKansu()
@@ -139,9 +139,10 @@ public class PlayerController : MonoBehaviour
         anim.SetTrigger("Spin");
     }
 
-    //着地判定
+    
     void OnTriggerEnter2D(Collider2D col)
     {
+        //着地判定
         if (col.gameObject.tag == "Ground" && !Death)
         {
             SoundObject.GetComponent<OneShotSoundManager>().PlaySound1();       //着地音

@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MobScript : MonoBehaviour
 {
-    
-    public float JumpHigh;      //ジャンプの高さ
-    public int PyonKankaku;     //ぴょんする間隔
-    public float DieSpeed;
+
+    [SerializeField] private float JumpHigh;      //ジャンプの高さ
+    [SerializeField] private int PyonKankaku;     //ぴょんする間隔
+    [SerializeField] private float DieSpeed;
 
     private Rigidbody2D RB;
     private Animator anim = null;

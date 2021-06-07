@@ -11,12 +11,6 @@ public class NejiController : MonoBehaviour
         GameObject LeftNejiObject = GameObject.Find("LeftNeji");    //¶‚Ë‚¶objectæ“¾
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     public void HingeEnabledComponent(GameObject gameObject)    //ƒqƒ“ƒQƒWƒ‡ƒCƒ“ƒg–³Œø
     {

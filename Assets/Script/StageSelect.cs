@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Stage : MonoBehaviour
+public class StageSelect : MonoBehaviour
 {
 
     public GameObject[] stageButtons;   //ステージ選択ボタン配列
@@ -13,7 +13,7 @@ public class Stage : MonoBehaviour
     void Start()
     {
         //どこまでクリアしているのか
-        int clearStageNo = PlayerPrefs.GetInt("clear", 0);
+        //int clearStageNo = PlayerPrefs.GetInt("clear", 0);
 
 
         //ステージボタンを有効化
@@ -22,14 +22,14 @@ public class Stage : MonoBehaviour
             bool b;
 
 
-            if (clearStageNo < 1)
-            {
-                b = false;
-            }
-            else
-            {
+          //  if (clearStageNo < 1)
+         //   {
+         //       b = false;
+         //   }
+       //     else
+       //     {
                 b = true;
-            }
+       // //    }
 
             //ボタンの有効、無効を設定
             stageButtons[i].GetComponent<Button>().interactable = b;
