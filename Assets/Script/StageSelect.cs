@@ -8,12 +8,14 @@ public class StageSelect : MonoBehaviour
 {
 
     public GameObject[] stageButtons;   //ステージ選択ボタン配列
+    public int clearStageNo;
+    public GameObject SaveObj;
 
     // Start is called before the first frame update
     void Start()
     {
         //どこまでクリアしているのか
-        //int clearStageNo = PlayerPrefs.GetInt("clear", 0);
+                clearStageNo = SaveObj.GetComponent<SaveManager>().OnLoad();
 
 
         //ステージボタンを有効化
@@ -22,14 +24,14 @@ public class StageSelect : MonoBehaviour
             bool b;
 
 
-          //  if (clearStageNo < 1)
-         //   {
-         //       b = false;
-         //   }
-       //     else
-       //     {
+            if (clearStageNo < i)
+           {
+                b = false;
+            }
+           else
+            {
                 b = true;
-       // //    }
+            }
 
             //ボタンの有効、無効を設定
             stageButtons[i].GetComponent<Button>().interactable = b;
