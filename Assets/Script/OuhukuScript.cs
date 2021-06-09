@@ -18,7 +18,7 @@ public class OuhukuScript : MonoBehaviour
         Kyoricount = (int)(Kyori / speed);      //スピードと距離から往復する時間の計算
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector2 vec2 = new Vector2(0, 0);        //リセット
         if (Yoko)

@@ -27,7 +27,7 @@ public class TimeScript : MonoBehaviour
         NokoriTime = LimitTime;
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //時間をカウントダウンする
         NokoriTime -= Time.deltaTime;
