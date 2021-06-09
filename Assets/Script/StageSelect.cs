@@ -54,4 +54,9 @@ public class StageSelect : MonoBehaviour
     {
         SceneManager.LoadScene("Sousahouhou");
     }
+    public void ResetButton()
+    {
+        SaveObj.GetComponent<SaveManager>().OnSave(0);   //ステージナンバー記憶
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
