@@ -7,10 +7,10 @@ public class StuffedRoll : MonoBehaviour
 {
     //　テキストのスクロールスピード
     [SerializeField]
-    private float textScrollSpeed = 30;
+    private float textScrollSpeed = 3;
     //　テキストの制限位置
     [SerializeField]
-    private float limitPosition = 730f;
+    private float limitPosition = -15f;
     //　エンドロールが終了したかどうか
     private bool isStopEndRoll;
     //　シーン移動用コルーチン
@@ -45,12 +45,5 @@ public class StuffedRoll : MonoBehaviour
     {
         //　5秒間待つ
         yield return new WaitForSeconds(5f);
-
-        if (Input.GetKeyDown("space"))
-        {
-            StopCoroutine(endRollCoroutine);
-        }
-
-        yield return null;
     }
 }
