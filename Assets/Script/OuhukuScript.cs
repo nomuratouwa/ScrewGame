@@ -5,10 +5,10 @@ using UnityEngine;
 public class OuhukuScript : MonoBehaviour
 {
 
-    public float speed = 0.05f;         //スピ―ド
-    public float Kyori = 100;           //距離
-    public bool Yoko = true;            //
-    public bool Tate = true;            //横化縦かどっちもトル―だと斜め
+    [SerializeField] private float speed = 0.05f;         //スピ―ド
+    [SerializeField] private float Kyori = 100;           //距離
+    [SerializeField] private bool Yoko = true;            //
+    [SerializeField] private bool Tate = true;            //横か縦かどっちもだと斜め
 
     private int Kyoricount;
     private int count = 0;
@@ -18,7 +18,7 @@ public class OuhukuScript : MonoBehaviour
         Kyoricount = (int)(Kyori / speed);      //スピードと距離から往復する時間の計算
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector2 vec2 = new Vector2(0, 0);        //リセット
         if (Yoko)

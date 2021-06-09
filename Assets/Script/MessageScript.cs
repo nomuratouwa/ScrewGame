@@ -5,7 +5,7 @@ using UnityEngine;
 public class MessageScript : MonoBehaviour
 {
     public CanvasGroup canvasGroup;
-    public float FeedTime = 0.01f;      //‚·‚¯‚éor‚·‚¯‚È‚¢‚Ü‚Å‚ÌŽžŠÔ
+    [SerializeField] private float FeedTime = 0.01f;      //‚·‚¯‚éor‚·‚¯‚È‚¢‚Ü‚Å‚ÌŽžŠÔ
 
     private bool PlayerHantei = false;
 

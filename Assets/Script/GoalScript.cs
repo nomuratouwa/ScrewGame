@@ -34,7 +34,7 @@ public class GoalScript : MonoBehaviour
          //   GoalObject.GetComponent<Text>();
         //    GoalObject.SetActive(true);
 
-            SceneMangaer.GetComponent<scene>().ClearScene();
+            SceneMangaer.GetComponent<StageScene>().ClearScene();
 
             // 3•b‚ÅƒNƒŠƒA‰æ–Ê‚É‘JˆÚ
             //SceneManager.LoadScene("ClearScene", 3.0f);

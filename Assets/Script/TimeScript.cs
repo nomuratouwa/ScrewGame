@@ -5,13 +5,14 @@ using UnityEngine.UI;
 
 public class TimeScript : MonoBehaviour
 {
-    
-    public  float LimitTime = 5.0f;     //制限時間
+
     public static float NokoriTime;     //リザルトで表示するためのstatic　それ以外で使わない（予定）
-    public float KikenTime = 20.0f;     //制限に近づいてるよの演出するタイム
+
+    [SerializeField] private float LimitTime = 5.0f;     //制限時間
+    [SerializeField] private float KikenTime = 20.0f;     //制限に近づいてるよの演出するタイム
 
     //時間を表示する変数
-    public Text timeText;
+    [SerializeField] private Text timeText;
 
     private bool Over = false;
     private GameObject BGMObject;
@@ -26,7 +27,7 @@ public class TimeScript : MonoBehaviour
         NokoriTime = LimitTime;
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //時間をカウントダウンする
         NokoriTime -= Time.deltaTime;

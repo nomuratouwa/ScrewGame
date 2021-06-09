@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ClearTimeScript : MonoBehaviour
 {
-    public Text CleartimeText;
+    [SerializeField] private Text CleartimeText;
     
     void Start()
     {

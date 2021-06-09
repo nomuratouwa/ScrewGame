@@ -235,7 +235,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &707785923284487864
 Rigidbody2D:
@@ -493,7 +492,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1008363110692756495
 Rigidbody2D:
@@ -641,7 +639,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1096520701871408931
 Rigidbody2D:
@@ -899,7 +896,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1283877516252193911
 Rigidbody2D:
@@ -1157,7 +1153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1584665259967608512
 Rigidbody2D:
@@ -1305,7 +1300,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &1672013608443063788
 Rigidbody2D:
@@ -1453,7 +1447,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &2309979504620827809
 Rigidbody2D:
@@ -1711,7 +1704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &2429418949150369227
 Rigidbody2D:
@@ -1760,7 +1752,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2745419205020691301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5533346, y: 0, z: 0}
+  m_LocalPosition: {x: 1.3333334, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1559068967186239220}
@@ -2275,7 +2267,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &4038887045960900206
 Rigidbody2D:
@@ -2533,7 +2524,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &4158150570806578948
 Rigidbody2D:
@@ -2876,7 +2866,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &4677814299574555031
 Rigidbody2D:
@@ -3025,7 +3014,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 7.267157, y: 0.7107843}
+  m_ConnectedAnchor: {x: 3.5055609, y: -12.479727}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -3049,7 +3038,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -1.5533347, y: 0}
+  m_ConnectedAnchor: {x: -1.3333335, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!255 &5445381670342515846
@@ -3157,7 +3146,6 @@ GameObject:
   - component: {fileID: 3602995827484055712}
   - component: {fileID: 6514251121333196409}
   - component: {fileID: 3602995827484055718}
-  - component: {fileID: 7713336939331282097}
   - component: {fileID: 506680454222518238}
   - component: {fileID: 5982676568380092017}
   - component: {fileID: 1273526369420054883}
@@ -3257,30 +3245,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!233 &7713336939331282097
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6021965293386348106}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.6161771, y: 0.7107843}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
 --- !u!61 &506680454222518238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3526,7 +3490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &7259424630134119358
 Rigidbody2D:
@@ -3639,7 +3602,6 @@ GameObject:
   - component: {fileID: 7620181250419221617}
   - component: {fileID: 7620181250419221622}
   - component: {fileID: 5562025104898023658}
-  - component: {fileID: 450061834040106216}
   - component: {fileID: 3170105887892325205}
   - component: {fileID: 3170105887892325204}
   - component: {fileID: 3170105887892325207}
@@ -3764,30 +3726,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!233 &450061834040106216
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7620181250419221623}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 15.267157, y: 0.7107843}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
 --- !u!255 &3170105887892325205
 FixedJoint2D:
   m_ObjectHideFlags: 0
@@ -3803,7 +3741,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 6.446665, y: 0}
+  m_ConnectedAnchor: {x: 6.6666665, y: 0}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!114 &3170105887892325204
@@ -4007,7 +3945,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ElekTime: 0
   Minamoto: 0
-  Debug: 0
   Sunder: {fileID: 0}
 --- !u!50 &8988367358027100529
 Rigidbody2D:
