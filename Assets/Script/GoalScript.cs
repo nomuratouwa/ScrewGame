@@ -8,11 +8,12 @@ public class GoalScript : MonoBehaviour
 
     public int StageNo; //ステージナンバー
 
-    //public GameObject GoalObject;
+    public GameObject SaveObj;
     public GameObject SceneMangaer;
     // Start is called before the first frame update
     void Start()
     {
+        SaveObj = GameObject.Find("SaveManager");
     }
 
     // Update is called once per frame
@@ -25,10 +26,10 @@ public class GoalScript : MonoBehaviour
         if (col.gameObject.name == "driver")
         {
             //セーブデータ更新
-            //if (PlayerPrefs.GetInt("CLEAR", 0) < StageNo)
-            //{
-               //PlayerPrefs.SetInt("CLEAR", StageNo);   //ステージナンバー記憶
-            //}
+            if (SaveObj.GetComponent<SaveManager>().OnLoad() < StageNo)
+            {
+                SaveObj.GetComponent<SaveManager>().OnSave(StageNo);   //ステージナンバー記憶
+            }
 
             //ゲームクリアテキストを表示
          //   GoalObject.GetComponent<Text>();
