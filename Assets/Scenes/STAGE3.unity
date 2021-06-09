@@ -3023,6 +3023,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 817979749, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
+      propertyPath: StageNo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 817979749, guid: c7c1eeb8ad655744cb6d18d32435f320, type: 3}
       propertyPath: GoalObject
       value: 
       objectReference: {fileID: 75153932}
