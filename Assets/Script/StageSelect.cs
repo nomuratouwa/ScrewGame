@@ -46,11 +46,6 @@ public class StageSelect : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     //ステージ選択
     public void PushStageSelectButton(int stageNo)
@@ -64,6 +59,7 @@ public class StageSelect : MonoBehaviour
     public void ResetButton()
     {
         SakujoText.text = "バイバイ";
+        Invoke("Reset", 3.5f);
     }
     public void sakujoSimasuka()
     {
