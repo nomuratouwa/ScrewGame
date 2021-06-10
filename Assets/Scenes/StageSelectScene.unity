@@ -158,6 +158,7 @@ MonoBehaviour:
   - {fileID: 666607645}
   - {fileID: 1891105279}
   - {fileID: 367955181}
+  - {fileID: 1995219070}
   clearStageNo: 3
   SaveObj: {fileID: 664042595}
 --- !u!4 &37559357
