@@ -10,6 +10,7 @@ public class StageSelect : MonoBehaviour
     public GameObject[] stageButtons;   //ステージ選択ボタン配列
     public int clearStageNo;
     public GameObject SaveObj;
+    public GameObject sakujoPanel;
 
     // Start is called before the first frame update
     void Start()
@@ -58,5 +59,13 @@ public class StageSelect : MonoBehaviour
     {
         SaveObj.GetComponent<SaveManager>().OnSave(0);   //ステージナンバー記憶
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void sakujoSimasuka()
+    {
+        sakujoPanel.SetActive(true);
+    }
+    public void noSakujo()
+    {
+        sakujoPanel.SetActive(false);
     }
 }
