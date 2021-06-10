@@ -11,7 +11,8 @@ public class StageSelect : MonoBehaviour
     public int clearStageNo;
     public GameObject SaveObj;
     public GameObject sakujoPanel;
-
+    [SerializeField]
+    private Text SakujoText;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +40,11 @@ public class StageSelect : MonoBehaviour
         }
 
     }
+    private void Reset()
+    {
+        SaveObj.GetComponent<SaveManager>().OnSave(0);   //ステージナンバー記憶
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
     // Update is called once per frame
     void Update()
@@ -57,8 +63,7 @@ public class StageSelect : MonoBehaviour
     }
     public void ResetButton()
     {
-        SaveObj.GetComponent<SaveManager>().OnSave(0);   //ステージナンバー記憶
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SakujoText.text = "バイバイ";
     }
     public void sakujoSimasuka()
     {
