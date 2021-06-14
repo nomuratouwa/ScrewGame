@@ -814,7 +814,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6298061594892249648, guid: 0f1046291ceb1a84ea6c42b45acea0f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.92
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6298061594892249648, guid: 0f1046291ceb1a84ea6c42b45acea0f2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1298,7 +1298,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "<color=aqua><size=76>program</size></color>\n\n\u5929\u91CE\u5C0B\n\u9234\u6728\u99FF\u4ECB\n\u80FD\u6751\u900F\u548C\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Sound</size></color>\n\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Design</size></color>\n\n\u80FD\u6751\u900F\u548C\n\n<color=aqua><size=76>Effect</size></color>\n\n\u5929\u91CE\u5C0B\n\u9234\u6728\u99FF\u4ECB\n\n<color=aqua><size=76>Production</size></color>\n\n\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u5DE5\u623F\u653F\u7B56\u59D4\u54E1\u4F1A"
+  m_Text: "<color=aqua><size=76>program</size></color>\n\n\u5929\u91CE\u5C0B\n\u9234\u6728\u99FF\u4ECB\n\u80FD\u6751\u900F\u548C\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Sound</size></color>\n\n\u767E\u6B66\u90C1\u6D77\n\n<color=aqua><size=76>Design</size></color>\n\n\u80FD\u6751\u900F\u548C\n\n<color=aqua><size=76>Effect</size></color>\n\n\u5929\u91CE\u5C0B\n\u9234\u6728\u99FF\u4ECB\n\n<color=aqua><size=76>Production</size></color>\n\n\u30AF\u30ED\u30EF\u30C3\u30B5\u30F3\u5DE5\u623F\u5236\u4F5C\u59D4\u54E1\u4F1A"
 --- !u!222 &566214131
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1938,7 +1938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.57
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2546,7 +2546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.91
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3141,7 +3141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.13
+      value: 3.1
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4195,7 +4195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.88
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6772407387424360290, guid: d3ca05572bd64194c9e10d872f8c2cf4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4638,7 +4638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6298061594892249648, guid: 0f1046291ceb1a84ea6c42b45acea0f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.45
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 6298061594892249648, guid: 0f1046291ceb1a84ea6c42b45acea0f2, type: 3}
       propertyPath: m_LocalPosition.z

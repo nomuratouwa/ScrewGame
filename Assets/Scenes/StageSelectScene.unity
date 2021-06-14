@@ -162,6 +162,7 @@ MonoBehaviour:
   clearStageNo: 3
   SaveObj: {fileID: 664042595}
   sakujoPanel: {fileID: 1639432698}
+  SakujoText: {fileID: 1075815554}
 --- !u!4 &37559357
 Transform:
   m_ObjectHideFlags: 0

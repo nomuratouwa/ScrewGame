@@ -72,7 +72,7 @@ public class MobScript : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground"&&!Death)
         {
-            SoundObject.GetComponent<OneShotSoundManager>().PlaySound1();       //’…’n‰¹
+            //SoundObject.GetComponent<OneShotSoundManager>().PlaySound1();       //’…’n‰¹
             Ground = true;
 
         }

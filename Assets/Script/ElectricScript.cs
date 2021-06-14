@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ElectricScript : MonoBehaviour
 {
-    public int ElekTime = 100;      //電気の強さ　　値が大きいと伝導しやすくなる
+    public int ElekTime = 100;                              //電気の強さ　　値が大きいと伝導しやすくなる
     [SerializeField] private bool Minamoto = false;      //同源かどうか
     [SerializeField] private Sprite Sunder;               //デバック用電気のスプライト
     private ElectricScript Script;
